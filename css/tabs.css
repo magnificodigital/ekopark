@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+#vtab {
+            margin: auto;
+            width: 980px;
+            height: 412px;
+        }
+        #vtab > ul > li {
+	width:220px;
+	height:49px;
+	background-color:#e5cb98;
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  border-top:1px solid #cb9731;
+  position: relative;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	cursor:pointer;
+	line-height:51px;
+	padding-left:10px;
+
+        }
+				        #vtab > ul > li:last-child {
+	width:220px;
+	height:49px;
+	background-color:#e5cb98;
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  border-top:1px solid #cb9731;
+	border-bottom:1px solid #cb9731;
+  position: relative;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	cursor:pointer;
+	line-height:51px;
+	padding-left:10px;
+	}
+
+  #vtab > ul > li.selected {
+	width:220px;
+	height:50px;
+	background-color:#cb9731;
+	background-image:url(../_imgs/bg_li.png);
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  border-top:1px solid #cb9731;
+  position: relative;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	line-height:51px;
+	padding-left:10px;
+        }
+        #vtab > ul {
+            float: left;
+            width: 110px;
+            text-align: left;
+            display: block;
+            margin: auto 0;
+            padding: 0;
+            position: relative;
+        }
+        #vtab > div {
+            background-color: #fafafa;
+            margin-left: 250px;
+            border: 1px solid #ddd;
+            width: 730px;
+						height: 412px;
+            position: relative;
+            z-index: 9;
+        }
+        #vtab > div > h4 {
+            color: #800;
+            font-size: 1.2em;
+            border-bottom: 1px dotted #800;
+            padding-top: 5px;
+            margin-top: 0;
+        }
+        #loginForm label {
+            float: left;
+            width: 100px;
+            text-align: right;
+            clear: left;
+            margin-right: 15px;
+        }
+        #loginForm fieldset {
+            border: none;
+        }
+        #loginForm fieldset > div {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        #loginForm #login {
+            margin-left: 115px;
+        }

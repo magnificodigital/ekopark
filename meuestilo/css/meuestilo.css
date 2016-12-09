@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:18px;
+	background-color:#f2f2f2;
+	padding-top:50px;
+}
+
+h1 {
+font-size:16px;
+font-weight:bold;
+color:#000000;
+margin:0;
+}
+
+a {
+color:#333333;
+}
+
+a:visited {
+color: #333333;
+}
+
+
+.bold {
+font-weight:bold;
+}
+
+.conteudo {
+width:840px;
+padding-top:50px;
+padding-left:50px;
+padding-right:50px;
+padding-bottom:100px;
+color:#333333;
+background-color:#FFFFFF;
+margin:0 auto;
+display:table;
+}
+
+.logo {
+clear:both;
+padding-bottom:25px;
+}
+
+.imagem_destaque {
+clear:both;
+padding-bottom:40px;
+}
+
+.margem-30-cima-baixo {
+margin-top:40px;
+margin-bottom:40px;
+}
+
+hr {
+background-color:#CCCCCC;
+color:#CCCCCC;
+height:1px;
+border:none;
+}
+
+.input-padrao {
+width:390px;
+height:39px;
+background-color:#f1f2f2;
+color:#666666;
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom:1px solid #666666;
+padding-left:10px;
+}
+
+.input-ddd {
+width:50px;
+height:39px;
+background-color:#f1f2f2;
+color:#666666;
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom:1px solid #666666;
+float:left;
+margin-right:20px;
+padding-left:10px;
+}
+
+.input-telefone {
+width:310px;
+height:39px;
+background-color:#f1f2f2;
+color:#666666;
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom:1px solid #666666;
+float:left;
+padding-left:10px;
+}
+
+.campos-esquerda {
+float:left;
+margin-right:40px;
+width:400px;
+}
+
+.campos-direita {
+float:left;
+width:400px;
+}
+
+.styled-select select {
+   background: transparent;
+   width: 390px;
+   padding: 10px;
+   font-size: 14px;
+   line-height: 1;
+   border-top:1px solid #f1f2f2;
+	 border-left:1px solid #f1f2f2;
+	 border-right:1px solid #f1f2f2;
+	 border-bottom:2px solid #CCCCCC;
+   border-radius: 0;
+   height: 40px;
+	 float:left;
+   }
+	 
+.styled-select {
+   width: 390px;
+   height: 40px;
+   overflow: hidden;
+   }
+
+.plantas {
+padding-top:10px;
+width:252px;
+float:left;
+}
+
+.margem-direita-10 {
+margin-right:10px;
+}
+
+.margem-direita-40 {
+margin-right:40px;
+}
+
+.img_plantas {
+clear:both;
+padding-top:20px;
+}
+
+.topo-40 {
+padding-top:40px;
+}
+
+.bt_enviar {
+clear:both;
+float:left;
+}
+
+.alinha-centro {
+text-align:center;
+}
+

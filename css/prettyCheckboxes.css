@@ -1,0 +1,499 @@
+/* ------------------------------------------------------------------------
+	This you can customize
+------------------------------------------------------------------------- */
+
+	label.checkbox span.holder {
+		height: 67px; /* Total height of your checkbox image */
+		background:url(../_imgs/checkboxes.png) 0 0px no-repeat; /* Path to your checkbox image */
+	}
+	
+	label.checked span.holder,
+	label.checked span.holder,
+	label.checked:hover span.holder,
+	label.checked:hover span.holder { top: -37px !important; } /* Background position when checked */
+
+
+/* ------------------------------------------------------------------------
+	Customize at your own risk
+------------------------------------------------------------------------- */
+
+
+		input.hiddenCheckbox {
+			position: absolute; left: -10000px; /* Hide the input */
+		}
+	
+		label.prettyCheckbox span.holderWrap {
+			display: block; float: left;
+			position: relative;
+			margin-right: 5px;
+			overflow: hidden;
+		}
+		
+		label.prettyCheckbox span.holder {
+			display: block;
+			position: absolute;
+			top: 0; left: 0;
+		}
+		
+		
+		
+		@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+#header {
+	width:980px;
+	height:130px;
+	margin: 0 auto;
+}
+
+#logotipo_eko {
+	width:230px;
+	height:88px;
+	float:left;
+	margin-top:20px;
+	margin-right:260px;
+}
+
+#logotipo_eko a{
+	width:230px;
+	height:88px;
+	display:block;
+	background-image:url(_imgs/logo_eko_arquitetura.jpg);
+	background-repeat:none;
+	text-indent:-9999px;
+}
+
+#corretores {
+	width:300px;
+	height:75px;
+	float:left;
+	margin-top:10px;
+	margin-right:20px;
+}
+
+#corretores a{
+	width:300px;
+	height:75px;
+	display:block;
+	background-image:url(_imgs/img_fale_corretor_online.jpg);
+	background-repeat:none;
+	text-indent:-9999px;
+}
+
+#siteeko {
+	width:170px;
+	height:75px;
+	float:left;
+	margin-top:20px;
+	}
+
+#siteeko a{
+	width:170px;
+	height:40px;
+	display:block;
+	background-image:url(_imgs/botao_site_eko.jpg);
+	background-repeat:none;
+	text-indent:-9999px;
+}
+#seta {
+	width:13px;
+	height:12px;
+	float:right;
+	margin-top:6px;
+	}
+	
+#carrossel {
+	width:1440px;
+	height:600px;
+	margin:0 auto;
+	margin-bottom:35px;
+}
+
+#bloco {
+	width:980px;
+	height:435px;
+	margin:0 auto;
+	}
+
+#logo_empreendimento {
+	width:230px;
+	height:395px;
+	float:left;
+	position:relative;
+	top:-184px;
+	z-index:10;
+	clear:both;
+	}
+	
+	#texto_empreendimento {
+	width:480px;
+	height:182px;
+	float:left;
+	margin-top:30px;
+	position:relative;
+	top:-184px;
+	}
+	
+	#texto_empreendimento h1{
+	font-family: 'Quattrocento', serif;
+	font-weight:700;
+	font-size:16px;
+	color:#000000;
+	margin-bottom:17px;
+	}
+	
+	#texto_empreendimento p{
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#000000;
+	margin-bottom:20px;
+	}
+
+#maincontent {
+	width:1440px;
+	height:435px;
+	margin:0 auto;
+	margin-bottom:100px;
+	}
+	
+	#esquerda {
+	width:480px;
+	height:435px;
+	float:left;
+	padding-right:20px;
+	}
+	
+	#direita {
+	width:480px;
+	height:435px;
+	float:right;
+	position:relative;
+	}
+	
+	#video {
+	width:480px;
+	height:320px;
+	}
+	
+	#galeria {
+	width:480px;
+	height:100px;
+	}
+	
+	#galeria ul{
+	width:480px;
+	height:100px;
+	margin-top:15px;
+	}
+	
+	#galeria ul li{
+	width:150px;
+	height:100px;
+	margin-right:15px;
+	float:left;
+	}
+	
+	#galeria ul li:last-child{
+	width:150px;
+	height:100px;
+	margin-right:0px;
+	float:left;
+	}
+	
+	#features {
+	width:980px;
+	height:250px;
+	margin:0 auto;
+	}
+	
+	#features_borda {
+	width:980px;
+	height:2px;
+	padding-bottom:35px;
+	}
+	
+	
+	#features h1{
+	width:980px;
+	text-align:center;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:20px;
+	color:#000000;
+	}
+	
+	#features ul {
+	width:980px;
+	height:50px;
+	padding-top:40px;
+	}
+	
+	#features ul li{
+	width:150px;
+	height:50px;
+	float:left;
+	text-align:center;
+	line-height:47px;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	margin-right:15px;
+	background-color:#603913;
+	}
+	
+	#features ul li:last-child{
+	width:150px;
+	height:50px;
+	float:left;
+	text-align:center;
+	line-height:10px;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	margin-right:0px;
+	background-color:#603913;
+	}
+	
+	.duaslinhas {
+	height:43px !important;
+	line-height:18px !important;
+	padding-top:7px;
+	}
+	
+	#bgabas {
+	height:600px;
+	background-image:url(_imgs/ekopark_pattern.jpg);
+	background-repeat:repeat;
+	}
+	
+	#abas {
+	width:980px;
+	height:412px;
+	}
+	
+	#contato_localizacao {
+	width:980px;
+	height:490px;
+	margin:0 auto;
+	}
+	
+	#contato {
+	width:480px;
+	float:left;
+	
+	}
+	
+	#contato h1{
+	width:380px;
+	height:78px;
+	float:left;
+	border-bottom:1px solid #603913;
+	background-image:url(_imgs/logo_contato_h1.jpg);
+	background-repeat:no-repeat;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:18px;
+	color:#333333;
+	padding-left:100px;
+	line-height:80px;
+	margin-bottom:30px;
+	}
+	
+	#footer {
+	height:170px;
+	padding-top:30px;
+	background-color:#603913;
+	margin-top:80px;
+	position:relative;
+	}
+	
+	#content_footer {
+	width:980px;
+	margin:0 auto;
+	}
+	
+	#footer a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	text-transform:uppercase;
+	}
+	
+	#footer h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	text-transform:uppercase;
+	margin-bottom:30px;
+	}
+	
+	#footer p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	}
+	
+	#footer p:last-child{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	margin-bottom:35px;
+	}
+	
+	#footer a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:underline;
+	color:#FFF;
+	text-transform:uppercase;
+	}
+	
+	#footer_esquerda {
+	width:750px;
+	float:left;	
+
+	}
+	
+		#footer img {
+	margin-top:35px;	
+
+	}
+	
+	#botao_footer {
+	width:230px;
+	height:65px;
+	float:right;
+	}
+	
+	#botao_footer img{
+	margin-top:0px !important;
+	}
+	
+	#formulario {
+	float:left;
+	width:480px;
+	height:380px;
+	}
+	
+	.padrao1 {
+		width:220px;
+		height:49px;
+		padding-left:10px;
+		background-color:f1f2f2;
+		border-bottom:1px solid #d1d3d4;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		font-family: 'Quattrocento', serif;
+		font-weight:400;
+		font-size:14px;
+		color:#333;
+		margin-bottom:10px;
+		clear:both;
+		padding-left:10px;
+		}
+		
+
+		
+		#telddd {
+		width:280px;
+		height:50px;
+		clear:both;
+		margin-bottom:10px;	
+		}
+		
+		.ddd {
+		width:50px;
+		height:49px;
+		background-color:f1f2f2;
+		border-bottom:1px solid #d1d3d4;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		font-family: 'Quattrocento', serif;
+		font-weight:400;
+		font-size:14px;
+		color:#333;
+		float:left;
+		margin-right:10px;
+		padding-left:10px;
+		}
+		
+		.fone {
+		width:160px;
+		height:49px;
+		background-color:f1f2f2;
+		border-bottom:1px solid #d1d3d4;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		font-family: 'Quattrocento', serif;
+		font-weight:400;
+		font-size:14px;
+		color:#333;
+		float:left;
+		padding-left:10px;
+		}
+		
+	.mensagem {
+	width:480px;
+	height:99px;
+	border:none;
+	background-color:f1f2f2;
+	border-bottom:1px solid #d1d3d4;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#333;
+	padding-top:10px;
+	padding-left:10px;
+	resize:none;
+		}
+		
+	.btSubmit{
+	float:left;
+	margin-top:20px;
+	background-image:url(_imgs/bt_enviar.jpg);
+	width:230px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+	cursor:pointer;
+	border:none;
+}
+
+

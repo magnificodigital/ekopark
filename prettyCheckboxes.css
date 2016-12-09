@@ -1,0 +1,1707 @@
+		@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+
+/* ------------------------------------------------------------------------
+	This you can customize
+------------------------------------------------------------------------- */
+
+	label.checkbox span.holder {
+		height: 67px; /* Total height of your checkbox image */
+		background:url(_imgs/checkboxes.png) 0 0px no-repeat; /* Path to your checkbox image */
+
+	}
+	
+	label.checked span.holder,
+	label.checked span.holder,
+	label.checked:hover span.holder,
+	label.checked:hover span.holder { top: -37px !important;	} /* Background position when checked */
+
+
+/* ------------------------------------------------------------------------
+	Customize at your own risk
+------------------------------------------------------------------------- */
+
+
+		input.hiddenCheckbox {
+			position: absolute; left: -10000px; /* Hide the input */
+		}
+	
+		label.prettyCheckbox span.holderWrap {
+			display: block; float: left;
+			position: relative;
+			margin-right: 5px;
+			overflow: hidden;
+		}
+		
+		label.prettyCheckbox span.holder {
+			display: block;
+			position: absolute;
+			top: 0; left: 0;
+		}
+		
+#checkkk {
+	margin-top:10px;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:12px;
+	color:#000000;
+	line-height:29px;
+	clear:both;
+	}		
+		
+
+
+#header {
+	width:980px;
+	height:130px;
+	margin: 0 auto;
+}
+
+#logotipo_eko {
+	width:230px;
+	height:88px;
+	float:left;
+	margin-top:20px;
+	margin-right:260px;
+}
+
+#logotipo_eko a{
+	width:152px;
+	height:91px;
+	display:block;
+	/*background-image:url(_imgs/logo_eko_arquitetura.jpg);*/
+	background-image:url(_imgs/logo_para_voce.gif);
+	background-repeat:none;
+	text-indent:-9999px;
+}
+
+#corretores {
+	width:300px;
+	height:75px;
+	float:right;
+	margin-top:10px;
+	margin-right:0px;
+}
+
+#corretores a{
+	width:300px;
+	height:75px;
+	display:block;
+	background-image:url(_imgs/img_fale_corretor_online.jpg);
+	background-repeat:none;
+	text-indent:-9999px;
+}
+
+#siteeko {
+	width:170px;
+	height:75px;
+	float:left;
+	margin-top:20px;
+	display: none;
+	}
+
+#siteeko a{
+	width:170px;
+	height:40px;
+	display:block;
+	background-image:url(_imgs/botao_site_eko.jpg);
+	background-repeat:none;
+	text-indent:-9999px;
+}
+#seta {
+	width:13px;
+	height:12px;
+	float:right;
+	margin-top:6px;
+	}
+	
+#carrossel {
+	width:980px;
+	height:600px;
+	margin:0 auto;
+	margin-bottom:35px;
+}
+
+#bloco {
+	width:980px;
+	height:435px;
+	margin:0 auto;
+	}
+
+#logo_empreendimento {
+	width:230px;
+	height:395px;
+	float:left;
+	position:relative;
+	top:-184px;
+	z-index:10;
+	clear:both;
+	}
+	
+	#texto_empreendimento {
+	width:460px;
+	height:182px;
+	float:left;
+	margin-top:30px;
+	position:relative;
+	top:-184px;
+	}
+	
+	#texto_empreendimento h1{
+	font-family: 'Quattrocento', serif;
+	font-weight:700;
+	font-size:16px;
+	color:#000000;
+	margin-bottom:17px;
+	}
+	
+	#texto_empreendimento p{
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#000000;
+	margin-bottom:20px;
+	}
+
+#maincontent {
+	width:980px;
+	height:435px;
+	margin:35px auto 100px;
+	}
+	
+	#esquerda {
+	width:480px;
+	height:435px;
+	float:left;
+	padding-right:20px;
+	}
+	
+	#direita {
+	width:480px;
+	height:435px;
+	float:right;
+	position:relative;
+	}
+	
+	#video {
+	width:480px;
+	height:320px;
+	}
+	
+	#video a{
+	width:480px;
+	height:320px;
+	display:block;
+	background-image:url(_imgs/img_video.jpg);
+	text-indent:-9999px;
+	}
+	
+	#video a:hover{
+	width:480px;
+	height:320px;
+	display:block;
+	background-image:url(_imgs/img_video_over.jpg);
+	text-indent:-9999px;
+	}
+	
+	#galeria {
+	width:480px;
+	height:100px;
+	}
+	
+	#galeria ul{
+	width:480px;
+	height:100px;
+	margin-top:15px;
+	}
+	
+	#galeria ul li{
+	width:150px;
+	height:100px;
+	margin-right:15px;
+	float:left;
+	}
+	
+	#galeria ul li:last-child{
+	width:150px;
+	height:100px;
+	margin-right:0px;
+	float:left;
+	}
+	
+	#features {
+	width:980px;
+	height:250px;
+	margin:0 auto;
+	}
+	
+	#features_borda {
+	width:980px;
+	height:2px;
+	padding-bottom:35px;
+	}
+	
+	
+	#features h1{
+	width:980px;
+	text-align:center;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:20px;
+	color:#000000;
+	}
+	
+	#features ul {
+	width:980px;
+	height:50px;
+	padding-top:40px;
+	}
+	
+	#features ul li{
+	width:150px;
+	height:50px;
+	float:left;
+	text-align:center;
+	line-height:47px;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	margin-right:15px;
+	background-color:#603913;
+	}
+	
+	#features ul li:last-child{
+	width:150px;
+	height:50px;
+	float:left;
+	text-align:center;
+	line-height:10px;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	margin-right:0px;
+	background-color:#603913;
+	}
+	
+	.duaslinhas {
+	height:43px !important;
+	line-height:18px !important;
+	padding-top:7px;
+	}
+	
+	#bgabas {
+	height:500px;
+	background-image:url(_imgs/ekopark_pattern.jpg);
+	background-repeat:repeat;
+	margin-bottom:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+	}
+	
+	#abas {
+	width:980px;
+	height:412px;
+	margin:0 auto;
+	}
+	
+	#contato_localizacao {
+	width:980px;
+	height:520px;
+	margin:0 auto;
+	}
+	
+	#contato {
+	width:480px;
+	float:left;
+	
+	}
+	
+	#contato h1{
+	width:380px;
+	height:78px;
+	float:left;
+	border-bottom:1px solid #603913;
+	background-image:url(_imgs/logo_contato_h1.jpg);
+	background-repeat:no-repeat;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:18px;
+	color:#333333;
+	padding-left:100px;
+	line-height:80px;
+	margin-bottom:30px;
+	}
+	
+	#localizacao {
+	width:480px;
+	float:right;
+	
+	}
+	
+	#localizacao h1{
+	width:380px;
+	height:78px;
+	float:left;
+	border-bottom:1px solid #603913;
+	background-image:url(_imgs/logo_localizacao_h1.jpg);
+	background-repeat:no-repeat;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:18px;
+	color:#333333;
+	padding-left:100px;
+	line-height:80px;
+	margin-bottom:30px;
+	}
+	
+	#mapa {
+	width:480px;
+	height:186px;	
+	margin-top:30px;
+		}
+	
+	#mapa img{
+	float:left;	
+	}
+	
+	#endereco {
+	text-align:right;
+	height:85px;
+	margin-bottom:16px;
+	}
+	
+	#endereco h2{
+	text-align:right;
+	font-family: 'Quattrocento', serif;
+	font-weight:700;
+	font-size:14px;
+	color:#333333;
+	}
+	
+	#endereco p{
+	text-align:right;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#333333;
+	margin-top:10px;
+	}
+	
+	#endereco_2{
+	width:480px;
+	height:70px;
+	}
+	
+	#endereco_3{
+	width:230px;
+	height:49px;
+	background-image:url(_imgs/bg_endereco.jpg);
+	padding-top:21px;
+	text-align:left;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#000000;
+	float:left;
+	
+	}
+	
+	#endereco_4{
+	float:right;
+	width:230px;
+	height:70px;
+	background-color:#cb9731;
+	font-family: 'Quattrocento', serif;
+	font-weight:700;
+	font-size:30px;
+	color:#FFF;
+	text-align:center;
+	line-height:66px;
+	cursor:pointer;
+	}
+	
+	.eleven {
+	font-family: 'Quattrocento', serif;
+	font-weight:400 !important;
+	font-size:18px !important;
+	color:#FFF;
+		}
+	
+
+	
+	
+	
+	#footer {
+	height:170px;
+	padding-top:30px;
+	background-color:#603913;
+	margin-top:80px;
+	position:relative;
+	}
+	
+	#content_footer {
+	width:980px;
+	margin:0 auto;
+	}
+	
+	#footer a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	text-transform:uppercase;
+	}
+	
+	#footer h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	text-transform:uppercase;
+	margin-bottom:20px;
+	}
+	
+	#footer p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	}
+	
+	#footer p:last-child{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#FFF;
+	margin-bottom:35px;
+	}
+	
+	#footer a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:underline;
+	color:#FFF;
+	text-transform:uppercase;
+	}
+	
+	#footer_esquerda {
+	width:750px;
+	float:left;	
+
+	}
+	
+		#footer img {
+	margin-top:20px;	
+
+	}
+	
+	#botao_footer {
+	width:230px;
+	height:65px;
+	float:right;
+	}
+	
+	#botao_footer img{
+	margin-top:0px !important;
+	}
+	
+	#formulario {
+	float:left;
+	width:480px;
+	height:380px;
+	}
+	
+	.padrao1 {
+		width:98%;
+		height:49px;
+		padding-left:10px;
+		background-color:#f1f2f2;
+		border-bottom:1px solid #d1d3d4;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		font-family: 'Quattrocento', serif;
+		font-weight:400;
+		font-size:14px;
+		color:#333;
+		margin-bottom:10px;
+		clear:both;
+		padding-left:2%;
+		float:left;
+	}
+		
+
+		
+		#telddd {
+		width:100%;
+		height:50px;
+		clear:both;
+		margin-bottom:10px;	
+		}
+		
+		.ddd {
+		width:8%;
+		height:49px;
+		background-color:#f1f2f2;
+		border-bottom:1px solid #d1d3d4;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		font-family: 'Quattrocento', serif;
+		font-weight:400;
+		font-size:14px;
+		color:#333;
+		float:left;
+		margin-right:2%;
+		padding-left:2%;
+		}
+		
+		.fone {
+		width: 85.5%;
+		height:49px;
+		background-color:#f1f2f2;
+		border-bottom:1px solid #d1d3d4;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		font-family: 'Quattrocento', serif;
+		font-weight:400;
+		font-size:14px;
+		color:#333;
+		float:left;
+		padding-left:10px;
+		}
+		
+	.mensagem {
+	width:98%;
+	height:99px;
+	border:none;
+	background-color:#f1f2f2;
+	border-bottom:1px solid #d1d3d4;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#333;
+	padding-top:10px;
+	padding-left:2%;
+	resize:none;
+		}
+		
+	.btSubmit{
+	margin-top:20px;
+	background-image:url(_imgs/bt_enviar.jpg);
+	width:230px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+	cursor:pointer;
+	border:none;
+	}
+
+.msgsend {
+font-family: 'Quattrocento', serif;
+font-weight:700 !important;
+font-size:18px;
+color:#333;
+text-decoration:none;
+float:left;
+margin-top:20px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#vtab {
+            margin: auto;
+            width: 980px;
+            height: 412px;
+        }
+        #vtab > ul > li {
+	width:220px;
+	height:49px;
+	background-color:#e5cb98;
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  border-top:1px solid #cb9731;
+  position: relative;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	cursor:pointer;
+	line-height:51px;
+	padding-left:10px;
+
+        }
+				        #vtab > ul > li:last-child {
+	width:220px;
+	height:49px;
+	background-color:#e5cb98;
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  border-top:1px solid #cb9731;
+	border-bottom:1px solid #cb9731;
+  position: relative;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#FFFFFF;
+	cursor:pointer;
+	line-height:51px;
+	padding-left:10px;
+	}
+
+  #vtab > ul > li.selected {
+	width:220px;
+	height:50px;
+	background-color:#cb9731;
+	background-image:url(_imgs/bg_li.png);
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  border-top:1px solid #cb9731;
+  position: relative;
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	line-height:51px;
+	padding-left:10px;
+        }
+        #vtab > ul {
+            float: left;
+            width: 110px;
+            text-align: left;
+            display: block;
+            margin: auto 0;
+            padding: 0;
+            position: relative;
+        }
+        #vtab > div {
+            margin-left: 250px;
+            width: 730px;
+						height: 412px;
+            position: relative;
+            z-index: 9;
+        }
+        #vtab > div > h4 {
+            color: #800;
+            font-size: 1.2em;
+            border-bottom: 1px dotted #800;
+            padding-top: 5px;
+            margin-top: 0;
+        }
+        #loginForm label {
+            float: left;
+            width: 100px;
+            text-align: right;
+            clear: left;
+            margin-right: 15px;
+        }
+        #loginForm fieldset {
+            border: none;
+        }
+        #loginForm fieldset > div {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        #loginForm #login {
+            margin-left: 115px;
+        }
+				
+				
+				
+	#exclam {
+		width:252px;
+		height:180px;
+		float:left;
+		position:relative;
+		top:-63px;
+	}
+	
+	#exclam img {
+		width:30px;
+		height:30px;
+		float:left;
+		margin-bottom:20px;
+		clear:both;
+	}
+	
+	#exclam p {
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:14px;
+	color:#333;
+	margin-bottom:25px;
+	clear:both;
+	}
+	
+	
+	
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; font-family:'Droid Sans', sans-serif; color:#0099cc; font-size:12px; text-decoration:none; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(_imgs/colorbox/overlay.png) repeat 0 0;}
+#colorbox{font-family:'Droid Sans', sans-serif; color:#0099cc; font-size:12px; text-decoration:none;}
+    #cboxTopLeft{width:21px; height:21px; background:url(_imgs/colorbox/controls.png) no-repeat -100px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(_imgs/colorbox/controls.png) no-repeat -129px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(_imgs/colorbox/controls.png) no-repeat -100px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(_imgs/colorbox/controls.png) no-repeat -129px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(_imgs/colorbox/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(_imgs/colorbox/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(_imgs/colorbox/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(_imgs/colorbox/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(_imgs/colorbox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious.hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(_imgs/colorbox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext.hover{background-position:-50px -25px;}
+        #cboxLoadingOverlay{background:url(_imgs/colorbox/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(_imgs/colorbox/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(_imgs/colorbox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose.hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to IE9.
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+*/
+.cboxIE6 #cboxTopLeft{background:url(_imgs/colorbox/ie6/borderTopLeft.png);}
+.cboxIE6 #cboxTopCenter{background:url(_imgs/colorbox/ie6/borderTopCenter.png);}
+.cboxIE6 #cboxTopRight{background:url(_imgs/colorbox/ie6/borderTopRight.png);}
+.cboxIE6 #cboxBottomLeft{background:url(_imgs/colorbox/ie6/borderBottomLeft.png);}
+.cboxIE6 #cboxBottomCenter{background:url(_imgs/colorbox/ie6/borderBottomCenter.png);}
+.cboxIE6 #cboxBottomRight{background:url(_imgs/colorbox/ie6/borderBottomRight.png);}
+.cboxIE6 #cboxMiddleLeft{background:url(_imgs/colorbox/ie6/borderMiddleLeft.png);}
+.cboxIE6 #cboxMiddleRight{background:url(_imgs/colorbox/ie6/borderMiddleRight.png);}
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}
+
+.ui-carousel {
+	height: 100px;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+	position: relative; /*for ie7 to work e.g in html carousels*/
+	width: 300px
+}
+
+.ui-carousel > .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 9999px;
+}
+
+.ui-carousel > .wrapper > * {
+	border: 0;
+	display: block;
+	float: left;
+	height: 100px;
+	overflow: hidden;
+	width: 100px;	
+}
+
+
+
+
+#img_fundo_carrossel{
+	width:980px;
+	height:580px;
+	padding-top:20px;
+	background-image:url(_imgs/img_carrossel.jpg);
+}
+
+#img_fundo_carrossel_01 {
+	width:980px;
+	height:580px;
+	padding-top:20px;
+	background-image:url(_imgs/img_carrossel_fachada.jpg);
+}
+
+#branco_alpha {
+	width:460px;
+	height:110px;
+	float:right;
+	padding-right:20px;
+	background-image:url(_imgs/tarja_branca.png);
+	text-align:right;
+	padding-top:20px;
+	}
+
+#branco_alpha h1{
+	font-family: 'Quattrocento', serif;
+	font-weight:700;
+	font-size:18px;
+	color:#000000;	
+}
+
+#branco_alpha p{
+	font-family: 'Quattrocento', serif;
+	font-weight:400;
+	font-size:18px;
+	color:#000000;	
+}
+
+#setasubir {
+	width:980px;
+	height:30px;
+	margin: 0 auto;
+	}
+
+#setasubir a{
+	width:45px;
+	height:27px;
+	display:block;
+	cursor:pointer;
+	text-indent:-99999px;
+	background-image:url(_imgs/seta_subir.png);
+	float:right;
+}
+	
+.imagem1 a{
+width:150px;
+height:100px;
+background-image:url(_imgs/thumb_galeria_01.jpg);
+display:block;
+text-indent:-9999px;	
+}
+
+.imagem1 a:hover{
+width:150px;
+height:100px;
+background-image:url(_imgs/thumb_galeria_01_over.jpg);
+display:block;	
+}
+
+.imagem2 a{
+width:150px;
+height:100px;
+background-image:url(_imgs/thumb_galeria_02.jpg);
+display:block;
+text-indent:-9999px;	
+}
+
+.imagem2 a:hover{
+width:150px;
+height:100px;
+background-image:url(_imgs/thumb_galeria_02_over.jpg);
+display:block;	
+}
+
+.imagem3 a{
+width:150px;
+height:100px;
+background-image:url(_imgs/thumb_galeria_03.jpg);
+display:block;
+text-indent:-9999px;	
+}
+
+.imagem3 a:hover{
+width:150px;
+height:100px;
+background-image:url(_imgs/thumb_galeria_03_over.jpg);
+display:block;	
+}
+
+/******************************
+*
+*  RoyalSlider White Controls Skin
+*
+*    1. Arrows 
+*    2. Bullets
+*    3. Thumbnails
+*    4. Tabs
+*    5. Fullscreen button
+*    6. Play/close video button
+*    7. Preloader
+*    8. Caption
+*    
+*  Sprite: 'rs-minimal-white.png'
+*  Feel free to edit anything
+*  If you don't some part - just delete it
+* 
+******************************/
+
+
+/* Background */
+.rsMinW,
+.rsMinW .rsOverflow,
+.rsMinW .rsSlide,
+.rsMinW .rsVideoFrameHolder,
+.rsMinW .rsThumbs {
+	background: #000;
+	color: #FFF;
+}
+
+
+/***************
+*
+*  1. Arrows
+*
+****************/
+
+.rsMinW .rsArrow {
+	height: 32px;
+	width: 32px;
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	z-index: 21;
+}
+
+.rsMinW .rsArrowLeft { right: 154px; top: 110px; }
+.rsMinW .rsArrowRight { right: 114px; top: 110px; }
+
+.rsMinW .rsArrowIcn {		
+	width: 27px;
+	height: 27px;
+	margin-top: 3px;
+	margin-left: 3px;
+	position: absolute;
+	cursor: pointer;	
+	background: url('rs-minimal-white.png') transparent;
+	
+}
+.rsMinW .rsArrowIcn:hover {
+
+}
+
+
+.rsMinW.rsHor .rsArrowLeft .rsArrowIcn { background-position: -67px -34px; }
+.rsMinW.rsHor .rsArrowRight .rsArrowIcn { background-position: -67px -67px; }
+
+.rsMinW.rsVer .rsArrowLeft .rsArrowIcn { background-position: -100px -36px; }
+.rsMinW.rsVer .rsArrowRight .rsArrowIcn { background-position: -100px -68px; }
+
+.rsMinW .rsArrowDisabled .rsArrowIcn { opacity: .3 !important; filter: alpha(opacity=30);  *display: none; }
+
+
+/***************
+*
+*  2. Bullets
+*
+****************/
+
+.rsMinW .rsBullets {
+	position: absolute;
+	bottom: 15px;
+	right: 73px;
+	z-index: 35;
+	padding-top: 4px;
+	height: auto;
+
+	text-align: center;
+	line-height: 6px;
+	overflow: hidden;
+}
+.rsMinW .rsBullet {
+	width: 6px;
+	height: 6px;
+	display: inline-block;
+	*display:inline; 
+	*zoom:1;
+	padding: 6px 5px 6px 4px;
+}
+.rsMinW .rsBullet span {
+	display: block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #CCC;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.rsMinW .rsBullet.rsNavSelected span {
+	background: #FFF;
+}
+
+
+
+
+
+/***************
+*
+*  3. Thumbnails
+*
+****************/
+
+.rsMinW .rsThumbsHor {
+	width: 100%;
+	height: 72px;
+}
+.rsMinW .rsThumbsVer {
+	width: 96px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.rsMinW.rsWithThumbsHor .rsThumbsContainer {
+	position: relative;
+	height: 100%;
+}
+.rsMinW.rsWithThumbsVer .rsThumbsContainer {
+	position: relative;
+	width: 100%;
+}
+.rsMinW .rsThumb {
+	float: left;
+	overflow: hidden;
+	width: 96px;
+	height: 72px;
+}
+.rsMinW .rsThumb img {
+	width: 100%;
+	height: 100%;
+}
+.rsMinW .rsThumb.rsNavSelected {
+	background: #333;
+}
+.rsMinW .rsThumb.rsNavSelected img {
+	filter: alpha(opacity=40);
+	opacity: 0.7;
+}
+.rsMinW .rsThumb.rsNavSelected span.thumbIco {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 2px solid #FFF;
+	border: 2px solid rgba(255,255,255,0.9);
+	-webkit-backface-visibility: hidden;
+} 
+.rsMinW .rsTmb {
+	display: block;
+}
+
+
+
+
+/* Thumbnails arrow icons */
+.rsMinW .rsThumbsArrow {
+	height: 100%;
+	width: 20px;
+	position: absolute;
+	display: block;
+	cursor: pointer;	
+	z-index: 21;	
+}
+.rsMinW.rsWithThumbsVer .rsThumbsArrow {
+	width: 100%;
+	height: 20px;
+}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft { top: 0; left: 0; }
+.rsMinW.rsWithThumbsVer .rsThumbsArrowRight { bottom: 0;  left: 0; }
+
+.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft { left: 0; top: 0; }
+.rsMinW.rsWithThumbsHor .rsThumbsArrowRight { right: 0; top:0; }
+
+.rsMinW .rsThumbsArrowIcn {		
+	width: 16px;
+	height: 16px;
+	top: 50%;
+	left: 50%;
+	margin-top:-8px;	
+	margin-left: -8px;
+	position: absolute;	
+	cursor: pointer;	
+	background: url('rs-minimal-white.png');
+}
+
+.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -128px -32px; }
+.rsMinW.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn { background-position: -128px -48px; }
+
+.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -144px -32px; }
+.rsMinW.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn { background-position: -144px -48px; }
+
+.rsMinW .rsThumbsArrowDisabled { display: none !important; }
+
+/* Thumbnails resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 800px) {
+	.rsMinW .rsThumb {
+		width: 59px;
+		height: 44px;
+	}
+	.rsMinW .rsThumbsHor {
+		height: 44px;
+	}
+	.rsMinW .rsThumbsVer {
+		width: 59px;
+	}
+}
+
+
+
+
+/***************
+*
+*  4. Tabs
+*
+****************/
+
+.rsMinW .rsTabs {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align:center;
+	overflow: hidden; padding-top: 12px; position: relative;
+}
+.rsMinW .rsTab {
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	height: auto;
+	width: auto;
+	color: #333;
+	padding: 5px 13px 6px;
+	min-width: 72px;
+	border: 1px solid #D9D9DD;
+	border-right: 1px solid #f5f5f5;
+	text-decoration: none;
+
+	background-color: #000;
+	background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); 
+	background-image:    -moz-linear-gradient(top, #fefefe, #f4f4f4);
+	background-image:         linear-gradient(to bottom, #fefefe, #f4f4f4);
+
+	*display:inline; 
+	*zoom:1;
+}
+.rsMinW .rsTab:first-child {
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.rsMinW .rsTab:last-child { 
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+	border-right:  1px solid #cfcfcf;
+}
+.rsMinW .rsTab:active { 
+	border: 1px solid #D9D9DD;   
+	background-color: #f4f4f4;
+	box-shadow:  0 1px 4px rgba(0, 0, 0, 0.2) inset;
+}
+.rsMinW .rsTab.rsNavSelected { 
+	color: #000;
+	border: 1px solid #999;
+	text-shadow: 1px 1px #838383;
+	box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset;
+	background: #ACACAC;
+	background-image: -webkit-linear-gradient(top, #ACACAC, #BBB);
+	background-image: -moz-llinear-gradient(top, #ACACAC, #BBB);
+	background-image: linear-gradient(to bottom, #ACACAC, #BBB);
+}
+
+
+
+
+
+/***************
+*
+*  5. Fullscreen button
+*
+****************/
+
+.rsMinW .rsFullscreenBtn {
+	right: 0;
+	top: 0;
+	width: 44px;
+	height: 44px;
+	z-index: 22;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	
+}
+.rsMinW .rsFullscreenIcn {
+	display: block;
+	margin: 6px;
+	width: 32px;
+	height: 32px;
+
+	background: url('rs-minimal-white.png') 0 0 transparent;
+}
+.rsMinW .rsFullscreenIcn:hover {
+	opacity: 0.8;
+}
+.rsMinW.rsFullscreen .rsFullscreenIcn {
+	background-position: -32px 0;
+}
+
+
+
+
+
+/***************
+*
+*  6. Play/close video button
+*
+****************/
+
+.rsMinW .rsPlayBtn {
+	-webkit-tap-highlight-color:rgba(0,0,0,0.3);
+	width:64px;
+	height:64px;
+	margin-left:-32px;
+	margin-top:-32px;
+	cursor: pointer;
+}
+.rsMinW .rsPlayBtnIcon {
+	width:64px;
+	display:block;
+	height:64px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+
+	background:url(rs-minimal-white.png) no-repeat 0 -32px;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.75);
+	*background-color: #000;
+}
+.rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {
+	background-color: rgba(0,0,0,0.9);
+}
+.rsMinW .rsBtnCenterer {
+	position:absolute;
+	left:50%;
+	top:50%;
+	width: 20px;
+	height: 20px;
+}
+.rsMinW .rsCloseVideoBtn {
+	right: 0;
+	top: 0;
+	width: 44px;
+	height: 44px;
+	z-index: 500;
+	position: absolute;
+	cursor: pointer;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	
+}
+.rsMinW .rsCloseVideoBtn.rsiOSBtn {
+	top: -38px;
+	right: -6px;
+}
+
+.rsMinW .rsCloseVideoIcn {
+	margin: 6px;
+	width: 32px;
+	height: 32px;
+	background: url('rs-minimal-white.png') -64px 0;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.75);
+	*background-color: #000;
+}
+.rsMinW .rsCloseVideoIcn:hover {
+	background-color: rgba(0,0,0,0.9);
+}
+
+
+
+/***************
+*
+*  7. Preloader
+*
+****************/
+
+.rsMinW .rsPreloader {
+	width:20px;
+	height:20px;
+	background-image:url(../preloaders/preloader-white.gif);
+
+	left:50%;
+	top:50%;
+	margin-left:-10px;
+	margin-top:-10px;	
+}
+
+
+
+
+/***************
+*
+*  8. Global caption
+*
+****************/
+.rsMinW .rsGCaption {
+	position: absolute;
+	float: none;
+	bottom: 6px;
+	left: 6px;
+	text-align: left;
+
+	background: #000;
+    background: rgba(0,0,0, 0.75);
+
+	color: #FFF;
+	padding: 2px 8px;
+	width: auto;
+	font-size: 12px;
+	border-radius: 2px;
+}
+
+/* v1.0.5 */
+/* Core RS CSS file. 95% of time you shouldn't change anything here. */
+.royalSlider {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	direction: ltr;
+}
+.royalSlider > * {
+	float: left;
+}
+
+.rsWebkit3d .rsSlide {
+	-webkit-transform: translateZ(0);
+}
+
+
+.rsWebkit3d .rsSlide,
+.rsWebkit3d .rsContainer,
+.rsWebkit3d .rsThumbs,
+.rsWebkit3d .rsPreloader,
+.rsWebkit3d img,
+.rsWebkit3d .rsOverflow,
+.rsWebkit3d .rsBtnCenterer,
+.rsWebkit3d .rsAbsoluteEl,
+.rsWebkit3d .rsABlock,
+.rsWebkit3d .rsLink {
+	-webkit-backface-visibility: hidden;
+}
+.rsFade.rsWebkit3d .rsSlide,
+.rsFade.rsWebkit3d img,
+.rsFade.rsWebkit3d .rsContainer {
+    -webkit-transform: none;
+}
+.rsOverflow {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.rsVisibleNearbyWrap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.rsVisibleNearbyWrap .rsOverflow {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+.rsContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.rsArrow,
+.rsThumbsArrow {
+	cursor: pointer;
+}
+
+.rsThumb {
+	float: left;
+	position: relative;
+}
+
+
+.rsArrow,
+.rsNav,
+.rsThumbsArrow {
+	opacity: 1;
+	-webkit-transition:opacity 0.3s linear;
+	-moz-transition:opacity 0.3s linear;
+	-o-transition:opacity 0.3s linear;
+	transition:opacity 0.3s linear;
+}
+.rsHidden {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+	-moz-transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+	-o-transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+	transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+}
+
+
+.rsGCaption {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+/* Fullscreen options, very important ^^ */
+.royalSlider.rsFullscreen {
+	position: fixed !important;
+	height: auto !important;
+	width: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	z-index: 2147483647 !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+}
+
+.royalSlider .rsSlide.rsFakePreloader {
+	opacity: 1 !important;
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition:  0s;
+	transition:  0s;
+	display: none;
+}
+
+.rsSlide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	overflow: hidden;
+	
+	height: 100%;
+	width: 100%;
+}
+
+.royalSlider.rsAutoHeight,
+.rsAutoHeight .rsSlide {
+	height: auto;
+}
+
+.rsContent {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.rsPreloader {
+	position:absolute;
+	z-index: 0;	
+}
+
+.rsNav {
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.rsNavItem {
+	-webkit-tap-highlight-color:rgba(0,0,0,0.25);
+}
+
+.rsThumbs {
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	z-index: 22;
+}
+.rsTabs {
+	float: left;
+	background: none !important;
+}
+.rsTabs,
+.rsThumbs {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
+.rsVideoContainer {
+	/*left: 0;
+	top: 0;
+	position: absolute;*/
+	/*width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;*/
+	width: auto;
+	height: auto;
+	line-height: 0;
+	position: relative;
+}
+.rsVideoFrameHolder {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #141414;
+	opacity: 0;
+	-webkit-transition: .3s;
+}
+.rsVideoFrameHolder.rsVideoActive {
+	opacity: 1;
+}
+.rsVideoContainer iframe,
+.rsVideoContainer video,
+.rsVideoContainer embed,
+.rsVideoContainer .rsVideoObj {
+	position: absolute;
+	z-index: 50;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* ios controls over video bug, shifting video */
+.rsVideoContainer.rsIOSVideo iframe,
+.rsVideoContainer.rsIOSVideo video,
+.rsVideoContainer.rsIOSVideo embed {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 44px;
+}
+
+.rsABlock {
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 15;
+	
+}
+
+img.rsImg {
+	max-width: none;
+}
+
+.grab-cursor {
+	cursor:url(grab.png) 8 8, move; 
+}
+
+.grabbing-cursor{ 
+	cursor:url(grabbing.png) 8 8, move;
+}
+
+.rsNoDrag {
+	cursor: auto;
+}
+
+.rsLink {
+	left:0;
+	top:0;
+	position:absolute;
+	width:100%;
+	height:100%;
+	display:block;	
+	z-index: 20;
+	background: url(blank.gif);
+}
+
+
+
+
+
